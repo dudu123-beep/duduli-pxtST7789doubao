@@ -9,15 +9,12 @@
     },
     "files": [
         "main.ts",
-        "README.md",
-        "test.ts"
+        "README.md"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
+    "testFiles": [],
     "public": true,
     "targetVersions": {
-        "target": "6.0.0",
+        "target": "9.0.12",
         "targetId": "microbit"
     },
     "supportedTargets": [
