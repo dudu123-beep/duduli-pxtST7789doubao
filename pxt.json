@@ -1,0 +1,30 @@
+{
+    "name": "st7789-gmt024",
+    "version": "1.0.0",
+    "description": "ST7789 TFT LCD driver for GMT024-8p10p-SPI (240x320) on micro:bit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "test.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "6.0.0",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "disablesVariants": [
+        "mbdal"
+    ]
+}
